@@ -1,0 +1,1 @@
+import {existsSync} from 'node:fs';for(const f of ['public/index.html','public/app.js','public/styles.css','netlify/functions/api.mjs'])if(!existsSync(f))throw Error('Missing '+f);console.log('Site files ready');
